@@ -60,3 +60,42 @@ Angle: free & open-source tools people haven't heard of (not mainstream ChatGPT/
 | 30 | Dec 1 | GPT4All | Run private chatbots on any old laptop | OSS/local |
 
 Production: script + cloned voice (free local Chatterbox) + full film for each → Uzair reviews all → schedule. Publish timing per docs/posting.md (EST from Nov 1: weekdays 21:00 UTC, weekends 17:00 UTC).
+
+
+### Slot 2 — second daily video, 10 AM ET (15:00 UTC), Nov 2 → Dec 1 (locked 2026-11-02)
+Uzair asked for 2 videos/day. Slot-2 picks are chosen for **virality + audience benefit**: popular free consumer AI tools
+(famous names OK) in the style of viral Instagram "free AI tools" reels — not developer infrastructure.
+Scheduled via Postsiva's scheduler (avoids YouTube's daily upload cap). 8-beat script ending with a "Comment LINK" beat.
+
+| Date | Tool | Title | Source |
+|---|---|---|---|
+| 11-02 | googleflow | Google's Free AI Turns One Sentence Into a Video | https://flow.google.com |
+| 11-03 | nano-banana | Edit Any Photo Just By Typing — Free in Gemini | https://gemini.google.com |
+| 11-04 | notebooklm | This Free Google Tool Turns Any PDF Into a Podcast | https://notebooklm.google.com |
+| 11-05 | suno | This AI Writes a Full Song With Vocals From One Line | https://suno.com |
+| 11-06 | gamma | This AI Makes a Full Presentation From One Line | https://gamma.app |
+| 11-07 | instagram-edits | Instagram's Free Video Editor Most Creators Don't Use | https://edits.instagram.com |
+| 11-08 | open-photo-ai | This Free App Brings Old, Blurry Photos Back to Life | https://github.com/vegidio/open-photo-ai |
+| 11-09 | interviews-by-ai | Practice Your Job Interview With an AI Interviewer | https://www.interviewsby.ai |
+| 11-10 | framer | Describe a Website and AI Builds It — Free to Publish | https://www.framer.com |
+| 11-11 | ideogram | The AI Image Tool That Actually Spells Text Right | https://ideogram.ai |
+| 11-12 | opus-clip | This AI Turns One Long Video Into Viral Shorts | https://www.opus.pro |
+| 11-13 | adobe-enhance | Make a Phone Recording Sound Like a Studio — Free | https://podcast.adobe.com/enhance |
+| 11-14 | canva-ai | Make YouTube Thumbnails in Seconds With Canva's Free AI | https://www.canva.com |
+| 11-15 | comic-translate | Read Any Manga or Comic in Your Own Language | https://github.com/ogkalu2/comic-translate |
+| 11-16 | google-stitch | Describe an App and Google Designs the Screens — Free | https://stitch.withgoogle.com |
+| 11-17 | perplexity | Stop Scrolling Google Links — This AI Answers With Sources | https://www.perplexity.ai |
+| 11-18 | leonardo-ai | Stunning AI Images With Free Credits Every Day | https://leonardo.ai |
+| 11-19 | dub-studio | Dub Any Video Into Another Language in Your Own Voice | https://github.com/timoncool/dub-studio |
+| 11-20 | chatpdf | Chat With Any PDF Like It's a Person | https://www.chatpdf.com |
+| 11-21 | microsoft-designer | Microsoft's Free AI Makes Images, Invites and Posts | https://designer.microsoft.com |
+| 11-22 | pagelm | Turn Your Notes Into Quizzes, Flashcards and Podcasts — Free | https://github.com/CaviraOSS/PageLM |
+| 11-23 | capcut-captions | Add Perfect Auto Captions to Your Videos — Free | https://www.capcut.com |
+| 11-24 | emergent | Describe an App and AI Agents Build the Whole Thing | https://emergent.sh |
+| 11-25 | removerized | Remove Backgrounds Without Uploading Your Photos | https://removerized.yoss.pro |
+| 11-26 | fathom | Stop Taking Meeting Notes — This AI Does It Free | https://fathom.ai |
+| 11-27 | yovoice | Free Offline App for Voiceovers, Voice Cloning and Songs | https://github.com/leemysw/yovoice |
+| 11-28 | youmind | Stop Guessing AI Prompts — Copy the Ones That Work | https://youmind.com |
+| 11-29 | sokuji | Live Two-Way Translation in Your Meetings — Free | https://github.com/kizuna-ai-lab/sokuji |
+| 11-30 | pandrator | Turn Any Ebook or PDF Into an Audiobook — Free | https://github.com/lukaszliniewicz/Pandrator |
+| 12-01 | openchatcut | Edit Videos by Chatting With an AI — Free & Open Source | https://github.com/0xsline/OpenChatCut |
