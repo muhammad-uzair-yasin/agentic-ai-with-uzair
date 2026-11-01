@@ -13,7 +13,7 @@ One video per day. End line of every video: *"Subscribe for a new AI tool every 
 
 ## Current status (update this block after every video)
 - Oct 30: light re-cut of the agent-safety story (published, legacy pipeline).
-- Nov 1: first daily-tool video **produced** — `unslop` (episodes/2026-11-01-unslop/), built with the Remotion engine (cover frame, slop→clean morph demo, before/after, Hacker host). **Not yet published** (awaiting upload via Postsiva).
+- Nov 1: first daily-tool video **published** — `unslop` (episodes/2026-11-01-unslop/), https://youtu.be/e3KE7Yq7hZw. Built with the Remotion engine (cover frame, slop→clean morph demo, before/after, Hacker host). Cross-posts not yet done.
 - **Voice change (Nov 1):** Uzair's ElevenLabs credits ran out. Narration is now generated **free & locally with Chatterbox TTS cloning Uzair's voice** (reference: the Oct 30 voice.mp3); Piper TTS set up as a fallback. Tooling lives in the session scratchpad; pending Uzair's sign-off as the standing voice path (rules.md #6 unchanged until then).
 
 ## Next actions
