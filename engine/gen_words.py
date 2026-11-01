@@ -78,11 +78,17 @@ def main():
     env = [0 if e < 0.09 else e ** 0.7 for e in env]          # noise gate + gamma
     sm = [sum(env[max(0, i - 1):i + 2]) / len(env[max(0, i - 1):i + 2]) for i in range(len(env))]  # 3-frame smooth
 
+    # per-sentence frame boundaries (for template scene timing)
+    SENTS = []
+    for s, t0, t1 in sents:
+        SENTS.append((15 + round(t0 * 30), 15 + round(t1 * 30)))
+
     end = W[-1][1]
     lines = ["export const WORDS: [number, number, string][] = ["]
     lines += [f'  [{a}, {b}, "{w}"],' for a, b, w in W]
     lines.append("];")
     lines.append("export const CHUNKS: [number, number][] = [" + ", ".join(f"[{a}, {b}]" for a, b in CH) + "];")
+    lines.append("export const SENTS: [number, number][] = [" + ", ".join(f"[{a}, {b}]" for a, b in SENTS) + "];")
     lines.append(f"export const VOICE_END = {end};")
     lines.append(f"export const TOTAL = {end + tail};")
     lines.append("export const ENV: number[] = [" + ",".join(str(round(e, 3)) for e in sm) + "];")

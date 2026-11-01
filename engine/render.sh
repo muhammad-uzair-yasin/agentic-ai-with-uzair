@@ -24,8 +24,7 @@ ffmpeg -y -v error -i "$EP/narration.mp3" -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 
 if [[ -d "$EP/extra" ]]; then for f in "$EP"/extra/*.mp3; do ffmpeg -y -v error -i "$f" -ar 48000 "public/projects/$SLUG/$(basename "${f%.mp3}").wav"; done; fi
 
 rm -rf src/build && mkdir -p src/build
-cp src/kit.tsx "$EP/Film.tsx" "$EP/entry.tsx" "$EP/words.ts" src/build/
-[[ -f src/Humans.tsx ]] && cp src/Humans.tsx src/build/   # 50-character cast rig (optional)
+cp src/*.tsx "$EP/Film.tsx" "$EP/entry.tsx" "$EP/words.ts" src/build/   # kit.tsx, Humans.tsx, dailytool.tsx + the episode files
 [[ -f "$EP/Film2.tsx" ]] && cp "$EP/Film2.tsx" src/build/  # optional extra film module
 
 # Chrome: Remotion downloads its own on a normal machine. In the Claude cloud workspace the download is
