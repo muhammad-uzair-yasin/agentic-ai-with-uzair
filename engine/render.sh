@@ -25,6 +25,8 @@ if [[ -d "$EP/extra" ]]; then for f in "$EP"/extra/*.mp3; do ffmpeg -y -v error 
 
 rm -rf src/build && mkdir -p src/build
 cp src/kit.tsx "$EP/Film.tsx" "$EP/entry.tsx" "$EP/words.ts" src/build/
+[[ -f src/Humans.tsx ]] && cp src/Humans.tsx src/build/   # 50-character cast rig (optional)
+[[ -f "$EP/Film2.tsx" ]] && cp "$EP/Film2.tsx" src/build/  # optional extra film module
 
 # Chrome: Remotion downloads its own on a normal machine. In the Claude cloud workspace the download is
 # blocked, so point it at the pre-installed Playwright chromium.

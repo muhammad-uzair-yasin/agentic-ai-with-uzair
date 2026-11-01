@@ -12,8 +12,9 @@ One video per day. End line of every video: *"Subscribe for a new AI tool every 
 - **You (agent):** research + verify facts, write scripts, build the film in code, QA, publish via Postsiva MCP, keep this repo up to date.
 
 ## Current status (update this block after every video)
-- One video so far (Oct 30, light re-cut of the agent-safety story).
-- Daily tools format defined (docs/content-plan.md); first tool video due Nov 1.
+- Oct 30: light re-cut of the agent-safety story (published, legacy pipeline).
+- Nov 1: first daily-tool video **produced** — `unslop` (episodes/2026-11-01-unslop/), built with the Remotion engine (cover frame, slop→clean morph demo, before/after, Hacker host). **Not yet published** (awaiting upload via Postsiva).
+- **Voice change (Nov 1):** Uzair's ElevenLabs credits ran out. Narration is now generated **free & locally with Chatterbox TTS cloning Uzair's voice** (reference: the Oct 30 voice.mp3); Piper TTS set up as a fallback. Tooling lives in the session scratchpad; pending Uzair's sign-off as the standing voice path (rules.md #6 unchanged until then).
 
 ## Next actions
 1. Each morning, pick the day's tool from the Daily AI News Digest (sections 2, 3, 4, 7) or trending GitHub; verify pricing/limits on the official page.
