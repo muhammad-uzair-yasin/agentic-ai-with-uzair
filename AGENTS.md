@@ -13,7 +13,9 @@ One video per day. End line of every video: *"Subscribe for a new AI tool every 
 
 ## Current status (update this block after every video)
 - Oct 30: light re-cut of the agent-safety story (published, legacy pipeline).
-- Nov 1: first daily-tool video **published** — `unslop` (episodes/2026-11-01-unslop/), https://youtu.be/e3KE7Yq7hZw. Built with the Remotion engine (cover frame, slop→clean morph demo, before/after, Hacker host). Cross-posts not yet done.
+- Nov 1: first daily-tool video **published** — `unslop` (episodes/2026-11-01-unslop/), https://youtu.be/e3KE7Yq7hZw.
+- **Nov 2 → Dec 1: a full MONTH (30) of "hidden gems" daily-tool videos produced + SCHEDULED** on @agenticaiwithuzair. All built with the `engine/src/dailytool.tsx` template, free local Chatterbox voice (clone of Uzair). Nov 2–11 scheduled natively on YouTube; Nov 9 + Nov 12–Dec 1 scheduled via **Postsiva's scheduler** (`schedule_with=postsiva`) to avoid YouTube's ~10/day upload cap. Videos staged on the CDN (cdn.postsiva.com). Each description carries the tool's source link + an on-screen "Comment LINK" CTA. See docs/publish-log.md for the full dated list.
+- Next: cross-posts (optional), and pinned first-comment with each tool link once videos go live.
 - **Voice change (Nov 1):** Uzair's ElevenLabs credits ran out. Narration is now generated **free & locally with Chatterbox TTS cloning Uzair's voice** (reference: the Oct 30 voice.mp3); Piper TTS set up as a fallback. Tooling lives in the session scratchpad; pending Uzair's sign-off as the standing voice path (rules.md #6 unchanged until then).
 
 ## Next actions

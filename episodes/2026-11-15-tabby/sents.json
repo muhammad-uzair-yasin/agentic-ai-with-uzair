@@ -1,0 +1,37 @@
+[
+ [
+  "This free tool is a self hosted Copilot, that runs on your own machine.",
+  0.0,
+  4.054
+ ],
+ [
+  "It's called Tabby. It's open source.",
+  4.79,
+  6.764
+ ],
+ [
+  "It gives you AI code completion, right in VS Code, Vim, or IntelliJ.",
+  7.368,
+  11.55
+ ],
+ [
+  "But the whole thing runs on your own computer, even on a consumer graphics card.",
+  12.223,
+  16.593
+ ],
+ [
+  "So your code never touches someone else's cloud.",
+  17.485,
+  20.398
+ ],
+ [
+  "Set it up once with Docker, and your whole team can use it, free.",
+  21.382,
+  24.715
+ ],
+ [
+  "Subscribe for a new AI tool every day.",
+  25.435,
+  28.369
+ ]
+]
