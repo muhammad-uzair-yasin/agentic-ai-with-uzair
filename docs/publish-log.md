@@ -1,5 +1,44 @@
 # Publish log — Agentic Ai with Uzair (@agenticaiwithuzair, UCqmcLDjI298RwYjOjb17d8w)
 
+## Slot 2 — 10 AM ET (15:00 UTC), Nov 2 → Dec 1: 30 viral consumer-tool videos, SCHEDULED via Postsiva
+Every video passed QA (frame grid + timing/sync checks + Whisper transcript vs script) before upload.
+
+| Date | Tool | Title | Postsiva id |
+|---|---|---|---|
+| 11-02 | googleflow | Google's Free AI Turns One Sentence Into a Video | `a4e0ac0d` |
+| 11-03 | nano-banana | Edit Any Photo Just By Typing — Free in Gemini | `e635d0d0` |
+| 11-04 | notebooklm | This Free Google Tool Turns Any PDF Into a Podcast | `1c346cba` |
+| 11-05 | suno | This AI Writes a Full Song With Vocals From One Line | `51656aa9` |
+| 11-06 | gamma | This AI Makes a Full Presentation From One Line | `1a58961a` |
+| 11-07 | instagram-edits | Instagram's Free Video Editor Most Creators Don't Use | `aa849d73` |
+| 11-08 | open-photo-ai | This Free App Brings Old, Blurry Photos Back to Life | `a77b10c5` |
+| 11-09 | interviews-by-ai | Practice Your Job Interview With an AI Interviewer | `6039aef0` |
+| 11-10 | framer | Describe a Website and AI Builds It — Free to Publish | `3c85271f` |
+| 11-11 | ideogram | The AI Image Tool That Actually Spells Text Right | `f658a6aa` |
+| 11-12 | opus-clip | This AI Turns One Long Video Into Viral Shorts | `23a6e684` |
+| 11-13 | adobe-enhance | Make a Phone Recording Sound Like a Studio — Free | `151c01be` |
+| 11-14 | canva-ai | Make YouTube Thumbnails in Seconds With Canva's Free AI | `b73f6332` |
+| 11-15 | comic-translate | Read Any Manga or Comic in Your Own Language | `aea006e8` |
+| 11-16 | google-stitch | Describe an App and Google Designs the Screens — Free | `9d837b85` |
+| 11-17 | perplexity | Stop Scrolling Google Links — This AI Answers With Sources | `e9821691` |
+| 11-18 | leonardo-ai | Stunning AI Images With Free Credits Every Day | `822d27dc` |
+| 11-19 | dub-studio | Dub Any Video Into Another Language in Your Own Voice | `93c5e4ef` |
+| 11-20 | chatpdf | Chat With Any PDF Like It's a Person | `66828b9f` |
+| 11-21 | microsoft-designer | Microsoft's Free AI Makes Images, Invites and Posts | `8ac9a434` |
+| 11-22 | pagelm | Turn Your Notes Into Quizzes, Flashcards and Podcasts — Free | `?` |
+| 11-23 | capcut-captions | Add Perfect Auto Captions to Your Videos — Free | `?` |
+| 11-24 | emergent | Describe an App and AI Agents Build the Whole Thing | `?` |
+| 11-25 | removerized | Remove Backgrounds Without Uploading Your Photos | `?` |
+| 11-26 | fathom | Stop Taking Meeting Notes — This AI Does It Free | `?` |
+| 11-27 | yovoice | Free Offline App for Voiceovers, Voice Cloning and Songs | `?` |
+| 11-28 | youmind | Stop Guessing AI Prompts — Copy the Ones That Work | `?` |
+| 11-29 | sokuji | Live Two-Way Translation in Your Meetings — Free | `?` |
+| 11-30 | pandrator | Turn Any Ebook or PDF Into an Audiobook — Free | `?` |
+| 12-01 | openchatcut | Edit Videos by Chatting With an AI — Free & Open Source | `?` |
+
+**Slot-1 timing fix (Nov 2):** a splitter bug (trailing silence counted as a sentence break) shifted captions/scenes in Jan, Sweep, Marker, Aider, Open Notebook. All re-rendered. Marker/Aider/Open Notebook were swapped in the Postsiva queue (old posts cancelled). **Jan (Nov 6) and Sweep (Nov 11) are natively scheduled on YouTube with the old render — fixed files are on the CDN, awaiting Uzair's OK to replace.**
+
+
 ## 2026-11-02 → 12-01 — Full month of "hidden gems" daily-tool videos (30), SCHEDULED
 All on @agenticaiwithuzair, 4 PM ET weekdays (21:00 UTC) / 12 PM ET weekends (17:00 UTC). Built with the dailytool.tsx template, free local Chatterbox voice. Nov 2–8,10,11 scheduled natively on YouTube; Nov 9 + Nov 12→Dec 1 via Postsiva scheduler (avoids YT's ~10/day upload cap). Videos staged on cdn.postsiva.com.
 
