@@ -36,7 +36,7 @@ Every video passed QA (frame grid + timing/sync checks + Whisper transcript vs s
 | 11-30 | pandrator | Turn Any Ebook or PDF Into an Audiobook — Free | `c9b271bc` |
 | 12-01 | openchatcut | Edit Videos by Chatting With an AI — Free & Open Source | `ae033593` |
 
-**Slot-1 timing fix (Nov 2):** a splitter bug (trailing silence counted as a sentence break) shifted captions/scenes in Jan, Sweep, Marker, Aider, Open Notebook. All re-rendered. Marker/Aider/Open Notebook were swapped in the Postsiva queue (old posts cancelled). **Jan (Nov 6) and Sweep (Nov 11) are natively scheduled on YouTube with the old render — fixed files are on the CDN, awaiting Uzair's OK to replace.**
+**Slot-1 timing fix (Nov 2):** a splitter bug (trailing silence counted as a sentence break) shifted captions/scenes in Jan, Sweep, Marker, Aider, Open Notebook. All re-rendered. Marker/Aider/Open Notebook were swapped in the Postsiva queue (old posts cancelled). **Jan (Nov 6) and Sweep (Nov 11) are natively scheduled on YouTube with the old render — fixed files are on the CDN, Uzair is deleting the old two on YouTube; fixed versions scheduled via Postsiva in the same slots (Jan `2e05e5ec`, Sweep `612464f9`).**
 
 
 ## 2026-11-02 → 12-01 — Full month of "hidden gems" daily-tool videos (30), SCHEDULED

@@ -16,8 +16,12 @@ Treat them as requirements. If a rule seems to conflict with a skill or template
 5. **End with the channel's own subscribe line** (see docs/network.md table).
 
 ## Voice
-6. **Uzair's own ElevenLabs cloned voice.** The agent writes the script; Uzair generates the MP3 himself and attaches it.
-   *Why:* the ElevenLabs API and connector are unreachable from the agent's workspace (egress proxy blocks api.elevenlabs.io). **Never ask for or store an API key** — one key was pasted in chat on Oct 30 and must be treated as compromised.
+6. **Uzair's voice — the free local Chatterbox clone is the default; ElevenLabs is optional** (Uzair, Nov 2 2026).
+   The agent generates narration itself with Chatterbox TTS (Resemble AI, MIT), cloning Uzair's voice from the Oct 30 `voice.mp3` reference
+   (`engine/tools/cb_batch.py`). If Uzair prefers, he can still record a script in his ElevenLabs clone and attach the MP3 — either is fine.
+   Every narration is checked with Whisper against the script (`engine/tools/voice_check.py`) before use.
+   *Why:* ElevenLabs credits ran out on Nov 1 and the API is unreachable from the workspace; the local clone is free and keeps the same voice.
+   **Never ask for or store an API key** — one key was pasted in chat on Oct 30 and must be treated as compromised.
 
 ## Picture
 7. **Characters: use the 50-character cast** (`docs/characters.md`, `engine/characters/`) — a host plus topic-fitting guests.
