@@ -25,16 +25,16 @@ Every video passed QA (frame grid + timing/sync checks + Whisper transcript vs s
 | 11-19 | dub-studio | Dub Any Video Into Another Language in Your Own Voice | `93c5e4ef` |
 | 11-20 | chatpdf | Chat With Any PDF Like It's a Person | `66828b9f` |
 | 11-21 | microsoft-designer | Microsoft's Free AI Makes Images, Invites and Posts | `8ac9a434` |
-| 11-22 | pagelm | Turn Your Notes Into Quizzes, Flashcards and Podcasts — Free | `?` |
-| 11-23 | capcut-captions | Add Perfect Auto Captions to Your Videos — Free | `?` |
-| 11-24 | emergent | Describe an App and AI Agents Build the Whole Thing | `?` |
-| 11-25 | removerized | Remove Backgrounds Without Uploading Your Photos | `?` |
-| 11-26 | fathom | Stop Taking Meeting Notes — This AI Does It Free | `?` |
-| 11-27 | yovoice | Free Offline App for Voiceovers, Voice Cloning and Songs | `?` |
-| 11-28 | youmind | Stop Guessing AI Prompts — Copy the Ones That Work | `?` |
-| 11-29 | sokuji | Live Two-Way Translation in Your Meetings — Free | `?` |
-| 11-30 | pandrator | Turn Any Ebook or PDF Into an Audiobook — Free | `?` |
-| 12-01 | openchatcut | Edit Videos by Chatting With an AI — Free & Open Source | `?` |
+| 11-22 | pagelm | Turn Your Notes Into Quizzes, Flashcards and Podcasts — Free | `a6aced27` |
+| 11-23 | capcut-captions | Add Perfect Auto Captions to Your Videos — Free | `af613ac9` |
+| 11-24 | emergent | Describe an App and AI Agents Build the Whole Thing | `eb07b396` |
+| 11-25 | removerized | Remove Backgrounds Without Uploading Your Photos | `f50ccc71` |
+| 11-26 | fathom | Stop Taking Meeting Notes — This AI Does It Free | `1d1913ba` |
+| 11-27 | yovoice | Free Offline App for Voiceovers, Voice Cloning and Songs | `413aeed3` |
+| 11-28 | youmind | Stop Guessing AI Prompts — Copy the Ones That Work | `85f1aee8` |
+| 11-29 | sokuji | Live Two-Way Translation in Your Meetings — Free | `2ec6144f` |
+| 11-30 | pandrator | Turn Any Ebook or PDF Into an Audiobook — Free | `c9b271bc` |
+| 12-01 | openchatcut | Edit Videos by Chatting With an AI — Free & Open Source | `ae033593` |
 
 **Slot-1 timing fix (Nov 2):** a splitter bug (trailing silence counted as a sentence break) shifted captions/scenes in Jan, Sweep, Marker, Aider, Open Notebook. All re-rendered. Marker/Aider/Open Notebook were swapped in the Postsiva queue (old posts cancelled). **Jan (Nov 6) and Sweep (Nov 11) are natively scheduled on YouTube with the old render — fixed files are on the CDN, awaiting Uzair's OK to replace.**
 
